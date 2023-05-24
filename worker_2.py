@@ -1,7 +1,5 @@
 import os
-
 from kafka import KafkaConsumer
-
 from connection import get_connection
 
 # Kafka Configuration
