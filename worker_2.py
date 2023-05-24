@@ -5,7 +5,7 @@ from kafka import KafkaConsumer
 from connection import get_connection
 
 # Kafka Configuration
-kafka_bootstrap_servers = 'your_kafka_bootstrap_servers'
+kafka_bootstrap_servers = 'localhost:9092'
 kafka_topic = 'kafka_message'
 kafka_group_id = 'csv_data_group'
 
